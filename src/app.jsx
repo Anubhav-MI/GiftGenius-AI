@@ -17,6 +17,7 @@ function App() {
   const [loadingProgress, setLoadingProgress] = useState(0);
 
   const apikey = "Bearer " + process.env.REACT_APP_API_KEY;
+
   // Function to handle the "Generate Text" button click
   const handleGenerateClick = async () => {
     setLoading(true);
@@ -101,7 +102,7 @@ function App() {
         <button onClick={handleGenerateClick}>Generate Text</button>
       </div>
       <div className="right-container">
-        <h2 className="text-header">Generated Text:</h2>
+        <h2 className="text-header">Suggested gifts:</h2>
         {loading ? (
           <div>
             <p>Unwrapping the Perfect Ideas...please wait</p>
