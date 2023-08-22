@@ -17,7 +17,6 @@ function App() {
   const [loadingProgress, setLoadingProgress] = useState(0);
 
   const apikey = "Bearer " + process.env.REACT_APP_API_KEY;
-  console.log(apikey);
   // Function to handle the "Generate Text" button click
   const handleGenerateClick = async () => {
     setLoading(true);

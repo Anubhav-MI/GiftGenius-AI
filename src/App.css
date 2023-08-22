@@ -150,7 +150,7 @@ button {
     font-size: 62.5%;
   }
   .tag-line {
-    font-size: 0.9rem;
+    font-size: 2rem;
   }
   .App {
     display: flex;
@@ -159,8 +159,8 @@ button {
     top: 1rem;
     left: 1.4rem;
     transform: translate(0, 0);
-    height: 75rem;
-    width: 25rem;
+    height: 120rem;
+    width: 35rem;
     padding: 2rem;
   }
 
@@ -168,27 +168,43 @@ button {
     display: block;
     flex: 0 0 0;
     gap: 0;
-    width: 25rem;
-    font-size: 1.2rem;
+    width: 35rem;
+    font-size: 2rem;
     font-weight: 500;
     padding-right: 5rem;
   }
 
   .app-heading {
-    font-size: 2.5rem;
+    font-size: 5rem;
   }
   button {
     margin-top: 2rem;
     position: relative;
     bottom: 0;
     left: 6rem;
+    height: 5rem;
+    width: 16rem;
+    font-size: 1.8rem;
   }
   .input-section {
+    padding-top: 2rem;
     display: grid;
     margin-top: 1rem;
     grid-template-columns: 1fr;
   }
   .input-fields {
-    font-size: 1rem;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+
+  .text-header {
+    font-size: 2.4rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .right-container {
+    flex: 0 0 40rem;
+    font-size: 1.8rem;
+    height: 40rem;
   }
 }
