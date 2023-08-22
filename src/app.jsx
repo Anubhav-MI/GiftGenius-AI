@@ -15,8 +15,9 @@ function App() {
   ]);
   const [loading, setLoading] = useState(false);
   const [loadingProgress, setLoadingProgress] = useState(0);
-  const apikey = "Bearer " + process.env.REACT_APP_API_KEY;
 
+  const apikey = "Bearer " + process.env.REACT_APP_API_KEY;
+  console.log(apikey);
   // Function to handle the "Generate Text" button click
   const handleGenerateClick = async () => {
     setLoading(true);
@@ -65,13 +66,13 @@ function App() {
             className="input-fields"
             value={relation}
             onChange={(e) => setRelation(e.target.value)}
-            placeholder="How are you related"
+            placeholder="Tell me your relationship"
           ></input>
           <input
             className="input-fields"
             value={age}
             onChange={(e) => setAge(e.target.value)}
-            placeholder="What's their age"
+            placeholder="Specify the age"
           ></input>
           <input
             className="input-fields"
@@ -83,13 +84,13 @@ function App() {
             className="input-fields"
             value={occupation}
             onChange={(e) => setOccupation(e.target.value)}
-            placeholder="Enter occupation here"
+            placeholder="Enter their occupation"
           ></input>
           <input
             className="input-fields"
             value={interest}
             onChange={(e) => setInterest(e.target.value)}
-            placeholder="Share some interest"
+            placeholder="Share their interest"
           ></input>
           <input
             className="input-fields"
