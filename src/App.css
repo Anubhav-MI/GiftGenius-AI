@@ -188,13 +188,13 @@ button {
     font-size: 2.8rem;
   }
   .input-section {
-    padding: 2rem 0rem;
+    padding: 2rem 1rem;
     display: grid;
     margin-top: 1rem;
     grid-template-columns: 1fr;
   }
   .input-fields {
-    font-size: 2.2rem;
+    font-size: 2rem;
     padding: 1rem;
   }
 
